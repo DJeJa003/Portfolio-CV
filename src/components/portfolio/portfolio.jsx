@@ -3,7 +3,7 @@ import "./portfolio.css";
 import Menu from './menu';
 
 const Portfolio = () => {
-    const [items, setItems] = useState(Menu);
+    const [items] = useState(Menu);
     return (
         <section className="work container section" id="portfolio">
             <h2 className="section_title">Recent Works</h2>
@@ -20,9 +20,6 @@ const Portfolio = () => {
 
                             <span className='work_description'>{description}</span>
                             <h3 className='work_title'>{title}</h3>
-                            <a href="#" className="work_button">
-                                <i className="icon-link work_button-icon"></i>
-                            </a>
                         </div>
                     )
                 })}

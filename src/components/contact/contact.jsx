@@ -3,11 +3,10 @@ import "./contact.css";
 const Contact = () => {
     return (
         <section className='contact container section' id='contact'>
-            <h2 className='section_title'>Get in touch</h2>
+            <h2 className='section_title'>Contact Me</h2>
 
             <div className='contact_container grid'>
                 <div className='contact_info'>
-                    <h3 className='contact_title'></h3>
                     <p className='contact_details'>Want to know more? Please feel free to contact me through the form and I will get back to you ASAP.</p>
                 </div>
 {/** */}

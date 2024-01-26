@@ -13,8 +13,9 @@ const Resume = () => {
                         if (val.category === "education") {
                             return (
                                 <Card key={id} icon={val.icon} title={val.title} year={val.year} desc={val.desc}/>
-                            )
+                            );
                         }
+                        return null;
                     })}
                 </div>
                 <div className='timeline grid'>
@@ -22,8 +23,9 @@ const Resume = () => {
                         if (val.category === "experience") {
                             return (
                                 <Card key={index} title={val.title} year={val.year} desc={val.desc}/>
-                            )
+                            );
                         }
+                        return null;
                     })}
                 </div>
             </div>
