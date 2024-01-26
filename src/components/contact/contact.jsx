@@ -9,21 +9,21 @@ const Contact = () => {
             <div className='contact_container grid'>
                 <div className='contact_info'>
                     <h3 className='contact_title'></h3>
-                    <p className='contact_details'>Rather send an email straight? You can send it to jere-janhunen@hotmail.com</p>
+                    <p className='contact_details'>Want to know more? Please feel free to contact me through the form and I will get back to you ASAP.</p>
                 </div>
 {/** */}
                 <form action="" className='contact_form'>
                     <div className='contact_form-group'>
                         <div className='contact_form-div'>
-                            <input type="text" className='contact_form-input' placeholder='Insert your name'/>
+                            <input type="text" className='contact_form-input' placeholder='Name'/>
                         </div>
 
                         <div className='contact_form-div'>
-                            <input type="email" className='contact_form-input' placeholder='Insert your email'/>
+                            <input type="email" className='contact_form-input' placeholder='Email'/>
                         </div>
                     </div>
                     <div className='contact_form-div'>
-                            <input type="text" className='contact_form-input' placeholder='Insert your subject'/>
+                            <input type="text" className='contact_form-input' placeholder='Write your subject'/>
                     </div>
 
                     <div className='contact_form-div contact_form-area'>
