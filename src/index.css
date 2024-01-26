@@ -142,3 +142,45 @@ img {
 .btn:hover {
   animation: button-push 0.3s linear 1;
 }
+
+@media screen and (max-width: 768px) {
+  .aside {
+    width: 100%;
+    padding: 1rem;
+    position: static;
+    border-right: none;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .nav_list {
+    flex-direction: row; 
+  }
+  
+  .nav_link {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .aside {
+    width: 100%;
+    padding: 1rem;
+    position: static;
+    border-right: none;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .nav_list {
+    flex-direction: row; 
+  }
+  
+  .nav_link {
+    font-size: 1rem;
+  }
+}

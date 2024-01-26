@@ -35,3 +35,39 @@
     font-size: var(--small-font-size);
     transform: rotate(-180deg);
 }
+
+
+  @media screen and (max-width: 768px) {
+    .aside {
+      width: 30px;
+      min-height: 20px;
+      padding: 0.2rem;
+      position: static;
+      border-right: none;
+      position: fixed;
+        left: 0;
+        top: 0;
+        background: var(--body-color);
+        border-right: 1px solid rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 10;
+    }
+  
+    .main {
+      margin-left: 0;
+    }
+  
+    .nav_list {
+      flex-direction: row; 
+    }
+    
+    .nav_link {
+      font-size: 1rem;
+    }
+    .nav_logo {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+  }
