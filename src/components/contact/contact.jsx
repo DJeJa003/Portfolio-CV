@@ -13,15 +13,15 @@ const Contact = () => {
                 <form action="https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail" className='contact_form'>
                     <div className='contact_form-group'>
                         <div className='contact_form-div'>
-                            <input type="text" className='contact_form-input' placeholder='Name'/>
+                            <input type="text" name="name" className='contact_form-input' placeholder='Name'/>
                         </div>
 
                         <div className='contact_form-div'>
-                            <input type="email" className='contact_form-input' placeholder='Email'/>
+                            <input type="email" name="email" className='contact_form-input' placeholder='Email'/>
                         </div>
                     </div>
                     <div className='contact_form-div'>
-                            <input type="text" className='contact_form-input' placeholder='Write your subject'/>
+                            <input type="text" name="subject" className='contact_form-input' placeholder='Write your subject'/>
                     </div>
 
                     <div className='contact_form-div contact_form-area'>
