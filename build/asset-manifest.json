@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d00bb3e.css",
+    "main.js": "/static/js/main.a00744d8.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/Logo.png": "/static/media/Logo.a67ce96374e2e6f6d1ca.png",
+    "static/media/physics.jpg": "/static/media/physics.98446e6dca3a80be75cd.jpg",
+    "static/media/kauppa.jpg": "/static/media/kauppa.24c005c7dc1327b6ad64.jpg",
+    "static/media/55.jpg": "/static/media/55.601ece294920a1dae11c.jpg",
+    "static/media/service-1.svg": "/static/media/service-1.cf1ed095ef4b3f923356075cee1bc398.svg",
+    "static/media/avatar-2.svg": "/static/media/avatar-2.dbaf15ff9b5d68a39d1b24521fb12640.svg",
+    "static/media/service-2.svg": "/static/media/service-2.5c151f1353d4629154fbf0e537115128.svg",
+    "index.html": "/index.html",
+    "main.9d00bb3e.css.map": "/static/css/main.9d00bb3e.css.map",
+    "main.a00744d8.js.map": "/static/js/main.a00744d8.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d00bb3e.css",
+    "static/js/main.a00744d8.js"
+  ]
+}
