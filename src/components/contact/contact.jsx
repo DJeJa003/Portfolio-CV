@@ -10,7 +10,7 @@ const Contact = () => {
                     <p className='contact_details'>Want to know more? Please feel free to contact me through the form and I will get back to you ASAP.</p>
                 </div>
 {/** */}
-                <form action="" className='contact_form'>
+                <form action="https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail" className='contact_form'>
                     <div className='contact_form-group'>
                         <div className='contact_form-div'>
                             <input type="text" className='contact_form-input' placeholder='Name'/>
