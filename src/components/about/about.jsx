@@ -1,5 +1,3 @@
-import React from 'react';
-import Image from "../../assets/avatar-2.svg"
 import './about.css';
 
 
@@ -17,7 +15,7 @@ const About = () => {
                         University of Applied Sciences in Mikkeli. My whole life I've been intrigued by everything about PCs and the Internet,
                         and how it all works. That is why I'm becoming a software engineer; to find some questions for my answers. 
                         While I may not have the most experience in programming just yet, I am learning and growing each passing day.</p>
-                        <a href="" className='btn'>Download CV</a>
+                        <a href="https://drive.google.com/file/d/1NK9DMNt5LkTNoVDWEqcVcxzVGFFN4HW8/view" download="CV_Janhunen" className='btn'>Download CV</a>
                     </div>
 
                     <div className='about_skills grid'>

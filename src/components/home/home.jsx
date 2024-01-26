@@ -1,4 +1,3 @@
-import React from 'react';
 import "./home.css";
 import Me from "../../assets/55.jpg";
 import HeaderSocials from './headerSocials';

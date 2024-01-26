@@ -1,4 +1,3 @@
-import React from "react";
 import Work1 from "../../assets/kauppa.jpg"
 import Work2 from "../../assets/physics.jpg"
 import Work3 from "../../assets/face.jpg"
