@@ -14,7 +14,7 @@ const Menu = [
         id: 2,
         image: Work2,
         title: "Physics Game",
-        description: "My first Unity project ever. A game made for physics calculations, for example dropping the ball or skijumping.",
+        description: "My first Unity project ever done in a group with a timelimit. We made a game made for physics calculations, for example dropping the ball or skijumping.",
         link: "https://github.com/DJeJa003/Fysiikka-1-/tree/master"
     },
     {
