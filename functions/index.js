@@ -17,9 +17,10 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
     const mailOptions = {
         from: 'jetcher77@gmail.com',
         to: 'jere-janhunen@hotmail.com',
-      subject: `New Form Submission - ${formData.subject}`,
-      text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
+        subject: `New Form Submission - ${formData.subject}`,
+        text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
     };
+    
 
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
