@@ -49,7 +49,7 @@ const Contact = () => {
             alert('Email sent successfully!');
             setTimeout(() => {
               window.location.href = 'https://janhunenjere.com'
-            }, 1500);
+            }, 1000);
           } else {
             alert('Failed to send email.');
           }
