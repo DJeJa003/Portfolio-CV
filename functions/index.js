@@ -6,7 +6,6 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
   cors(req, res, () => {
     const formData = req.body;
 
-    // Create a transporter
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -15,7 +14,6 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       },
     });
 
-    // Define the email content
     const mailOptions = {
         from: 'jetcher77@gmail.com',
         to: 'jere-janhunen@hotmail.com',
@@ -23,7 +21,6 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       text: `Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
     };
 
-    // Send the email
     transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
         return res.status(500).send(error.toString());
@@ -32,6 +29,3 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
     });
   });
 });
-
-
-
