@@ -10,7 +10,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       service: 'gmail',
       auth: {
         user: 'jetcher77@gmail.com',
-        pass: '8VptLhdWzpx2hWc!',
+        pass: 'szcf rryf eodc njnc',
       },
     });
 
