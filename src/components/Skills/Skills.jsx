@@ -6,28 +6,28 @@ import Image2 from "../../assets/service-2.svg";
 const data = [
     {
         id: 1,
-        image: Image1,
+        image: Image2,
         title: "Web Development",
-        description: "I have made some web apps using React, this webpage is the latest work. I really enjoy the process and seeing the progress while working on it.",
+        description: "I've created some web apps using React, this webpage is the latest work. I really enjoy the process and seeing the progress while working on it.",
     },
     {
         id: 2,
         image: Image2,
         title: "Python",
-        description: "I've used Python mostly as a tool in mathemathics, but I recently learned a lot more about it on my exchange trip to Japan. ",
+        description: "I've used Python mostly as a tool in mathemathics, but recently I learned a lot more about it on my exchange trip to Japan. ",
     },
     {
         id: 3,
-        image: Image2,
+        image: Image1,
         title: "Continuous learning",
-        description: "I'm a fast learner, who quickly picks up on new concepts, even those I've never encountered before. And I'm always ready for new challenges.",
+        description: "I'm a fast learner, who quickly picks up on new concepts, even those I've never encountered before, and I am always ready for new challenges.",
     }
 ]
 
 const Skills = () => {
     return (
         <section className='services container section' id="Skills">
-            <h2 className='section_title'>Skills</h2>
+            <h2 className='section_title'>Key Skills</h2>
 
             <div className="services_container grid">
                 {data.map(({id, image, title, description}) => {

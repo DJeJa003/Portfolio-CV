@@ -95,3 +95,10 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+.work_description {
+    display: block;
+    padding-left: 0.875rem;
+    padding-right: 0.675rem;
+    text-align: justify;
+}

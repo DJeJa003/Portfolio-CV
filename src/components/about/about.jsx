@@ -11,9 +11,9 @@ const About = () => {
 
                 <div className='about_data grid'>
                     <div className='about_info'>
-                        <p className='about_desc'>My name is Jere Janhunen, and I'm a software engineering student in South-Eastern Finland 
-                        University of Applied Sciences in Mikkeli. My whole life I've been intrigued by everything about PCs and the Internet,
-                        and how it all works. That is why I'm becoming a software engineer; to find some questions for my answers. 
+                        <p className='about_desc'>My name is Jere Janhunen, and I'm a software engineering student at South-Eastern Finland 
+                        University of Applied Sciences in Mikkeli. My whole life I've been intrigued by everything about computers and the Internet,
+                        and how it all works. That is why I'm becoming a software engineer; to find some answers for my questions. 
                         While I may not have the most experience in programming just yet, I am learning and growing each passing day.</p>
                         <a href="https://drive.google.com/file/d/1NK9DMNt5LkTNoVDWEqcVcxzVGFFN4HW8/view" download="CV_Janhunen" className='btn'>Download CV</a>
                     </div>

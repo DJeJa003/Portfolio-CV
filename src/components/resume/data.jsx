@@ -30,7 +30,7 @@ const Data = [
         icon: "icon-graduation",
         year: "",
         title: "C#",
-        desc: "First language I really used. Learning more every day."
+        desc: "First language I really used and first language taught in school. Learning more every day."
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const Data = [
         icon: "icon-graduation",
         year: "",
         title: "SQL",
-        desc: "Pretty familiar with SQL, using it in almost every project nowadays."
+        desc: "Pretty familiar with SQL, using it in almost every project nowadays, thanks to multiple courses."
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const Data = [
         icon: "icon-graduation",
         year: "",
         title: "Python",
-        desc: "I can handle the basics and some of the more advanced stuff."
+        desc: "I can handle the basics and some of the more advanced stuff. Little bit of experience from machine learning."
     },
     {
         id: 7,
@@ -62,14 +62,14 @@ const Data = [
         icon: "icon-graduation",
         year: "",
         title: "Node.js",
-        desc: "I've used it as a backend on React projects."
+        desc: "I've used it as a backend on some React projects."
     },
     {
         id: 9,
         category: "experience",
         icon: "icon-graduation",
         year: "",
-        title: "Git",
+        title: "GitHub",
         desc: "I may not have a lot of public stuff here, but I sure know how to use it."
     },
     {
@@ -78,7 +78,7 @@ const Data = [
         icon: "icon-graduation",
         year: "",
         title: "CI/CD",
-        desc: "Most recent thing I've learned about. Seems pretty fun."
+        desc: "Most recent thing I've learned about. Seems to be pretty fun."
     },
     
     

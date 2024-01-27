@@ -11,6 +11,8 @@
     flex-direction: column;
     justify-content: space-between;
     z-index: 10;
+    align-items: center;
+
 }
 
 .nav_list {
@@ -34,6 +36,7 @@
     color: hsl(245, 15%, 65%);
     font-size: var(--small-font-size);
     transform: rotate(-180deg);
+    align-items: left;
 }
 
 
