@@ -20,6 +20,10 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       },
     });
 
+    if (!email) {
+        return res.status(400).send('Email is required');
+    }
+
     const mailOptions = {
         from: 'jetcher77@gmail.com',
         to: 'jere-janhunen@hotmail.com',
@@ -32,11 +36,14 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       if (error) {
         return res.status(500).send(error.toString());
       }
-      res.status(200).send('Email sent successfully, returning to homepage.');
+      else if (res.ok && formData.email !== null) {
+        res.status(200).send('Email sent successfully, returning to homepage.');
       alert("Email sent successfully!");
       setTimeout(() => {
         res.redirect('https://janhunenjere.com');
       }, 50);
+      }
+      
     //   res.status(200).send('Email sent successfully.', formData);
     //   alert("Email sent successfully!")
     //   setTimeout(() => {

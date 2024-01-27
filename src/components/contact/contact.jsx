@@ -45,13 +45,13 @@ const Contact = () => {
           body: JSON.stringify(data),
         });
       
-          if (response.ok) {
+          if (response.ok && formData.email != null) {
             alert('Email sent successfully!');
             setTimeout(() => {
               window.location.href = 'https://janhunenjere.com'
             }, 50);
           } else {
-            alert('Failed to send email.');
+            alert('Failed to send email, please fill out all fields.');
           }
         } catch (error) {
           console.error('Error:', error);
