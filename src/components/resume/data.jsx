@@ -62,7 +62,7 @@ const Data = [
         icon: "icon-graduation",
         year: "",
         title: "Node.js",
-        desc: "I've used it as a backend on some React projects."
+        desc: "I've used it as a backend on some React projects, like the store."
     },
     {
         id: 9,
