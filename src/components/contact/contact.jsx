@@ -1,8 +1,6 @@
 import "./contact.css";
-import { useNavigate } from 'react-router-dom';
   
 const Contact = () => {
-    const navigate = useNavigate();
 
     // const handleSubmit = async (event) => {
     //     event.preventDefault();
@@ -50,7 +48,7 @@ const Contact = () => {
           if (response.ok) {
             alert('Email sent successfully!');
             setTimeout(() => {
-              navigate.push('https://janhunenjere.com');
+              window.location.href = 'https://janhunenjere.com'
             }, 1500);
           } else {
             alert('Failed to send email.');
