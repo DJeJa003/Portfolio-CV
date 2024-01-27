@@ -24,7 +24,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
         from: 'jetcher77@gmail.com',
         to: 'jere-janhunen@hotmail.com',
         subject: `New Form Submission - ${subject || 'No Subject'}`,
-        text: `Name: ${name || 'No Name'}\nEmail: ${email || 'No Email'}\nMessage: ${message || 'No Message'}`,
+        text: `Name: ${name || 'No Name'}\n\nEmail: ${email || 'No Email'}\n\nMessage: ${message || 'No Message'}`,
     };
     
 
