@@ -36,7 +36,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       alert("Email sent successfully!");
       setTimeout(() => {
         res.redirect('https://janhunenjere.com');
-      }, 1000);
+      }, 50);
     //   res.status(200).send('Email sent successfully.', formData);
     //   alert("Email sent successfully!")
     //   setTimeout(() => {
