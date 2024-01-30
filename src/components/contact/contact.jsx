@@ -35,27 +35,32 @@ const Contact = () => {
             formData.forEach((value, key) => {
                 data[key] = value;
             });
+        
+        if (!data.email || !data.name || !data.message) {
+            alert('Please fill out all fields.');
+            return;
+            }
     
-      try {
-        const response = await fetch('https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(data),
-        });
+        try {
+            const response = await fetch('https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+            });
       
-          if (response.ok && formData.email != null) {
-            alert('Email sent successfully!');
+          if (response.ok) {
+            alert('Form successfully sent!');
             setTimeout(() => {
               window.location.href = 'https://janhunenjere.com'
             }, 50);
           } else {
-            alert('Failed to send email, please fill out all fields.');
+            alert('Something went wrong, please try again.');
           }
         } catch (error) {
           console.error('Error:', error);
-          alert('An error occurred.');
+          alert('Something went wrong.');
         }
       };
     return (
