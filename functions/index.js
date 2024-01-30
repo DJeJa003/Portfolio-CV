@@ -37,6 +37,19 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
       if (error) {
         return res.status(500).send(error.toString());
       }
+
+      if (formData.email !== null) {
+        // Handle success on the client-side
+        alert("Form successfully sent!");
+        setTimeout(() => {
+          // Redirect on the client-side
+          res.redirect('https://janhunenjere.com');
+        }, 50);
+      } else {
+        // Handle failure on the client-side
+        alert('Please fill out all fields.');
+        return res.status(400).send('Failed to send the form, please fill out all fields.');
+      }
     //   if (res.ok && formData.email !== null) {
     //     res.status(200).send('Form successfully sent.');
     //   alert("Form successfully sent!");
@@ -48,10 +61,10 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
     //     return res.status(400).send('Failed to send the form, please fill out all fields.');
     //   }
       
-      res.status(200).send('Form successfully sent.');
-      setTimeout(() => {
-        res.redirect('https://janhunenjere.com');
-      }, 50);
+    //   res.status(200).send('Form successfully sent.');
+    //   setTimeout(() => {
+    //     res.redirect('https://janhunenjere.com');
+    //   }, 50);
     });
   });
 });
