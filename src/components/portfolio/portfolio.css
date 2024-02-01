@@ -12,8 +12,8 @@
 
 .work_item:hover {
     color: var(--first-color);
-
 }
+
 
 .work_container {
     grid-template-columns: repeat(3, 1fr);
