@@ -2,31 +2,6 @@ import "./contact.css";
   
 const Contact = () => {
 
-    // const handleSubmit = async (event) => {
-    //     event.preventDefault();
-    //     // Your existing form submission logic
-    //     const response = await fetch('https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail', {
-    //       method: 'POST',
-    //       headers: {
-    //         'Content-Type': 'application/json',
-    //       },
-    //       body: JSON.stringify(formData),
-    //     });
-    
-    //     const data = await response.json();
-    
-    //     // Check if the email was sent successfully
-    //     if (response.ok) {
-    //       alert(data.message); // Display success message
-    //       setTimeout(() => {
-    //         navigate.push('/'); // Redirect to the homepage
-    //       }, 1500);
-    //     } else {
-    //       // Handle the case where email sending failed
-    //       alert('Email sending failed.');
-    //     }
-    //   };
-
     const handleSubmit = async (event) => {
         event.preventDefault();
       
@@ -71,7 +46,6 @@ const Contact = () => {
                 <div className='contact_info'>
                     <p className='contact_details'>Want to know more? Please feel free to contact me through the form and I will get back to you ASAP.</p>
                 </div>
-{/** action="https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail"*/}
                 <form  onSubmit={handleSubmit} className='contact_form'>
                     <div className='contact_form-group'>
                         <div className='contact_form-div'>
