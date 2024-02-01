@@ -5,7 +5,7 @@ const Sidebar = () => {
     return (
         <aside className='aside'>
             <a href="#home" className='nav_logo'>
-                <img src={Logo} alt=""/>
+                <img src={Logo} alt="Logo"/>
             </a>
 
             <nav className='nav'>
@@ -31,11 +31,6 @@ const Sidebar = () => {
                                 <i className='icon-graduation'></i>
                             </a>
                         </li>
-                        {/* <li className='nav_item'>
-                            <a href="" className='nav_link'>
-                                <i className='icon-layers'></i>
-                            </a>
-                        </li> */}
                         <li className='nav_item'>
                             <a href="#portfolio" className='nav_link'>
                                 <i className='icon-note'></i>
@@ -49,7 +44,6 @@ const Sidebar = () => {
                     </ul>
                 </div>
             </nav>
-                        {/**s s*/}
             <div className='nav_footer'>
                 <span className='copyright'>&copy;2024</span>
             </div>
