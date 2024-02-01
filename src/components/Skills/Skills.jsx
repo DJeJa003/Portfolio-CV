@@ -33,7 +33,7 @@ const Skills = () => {
                 {data.map(({id, image, title, description}) => {
                     return (
                         <div className="services_card" key={id}>
-                            <img src={image} alt="Image" className='services_img'/>
+                            <img src={image} alt="" className='services_img'/>
                             <h3 className='services_title'>{title}</h3>
                             <p className='services_description'>{description}</p>
                         </div>

@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <section className="home container" id="home">
             <div className='intro'>
-                <img src={Me} alt="Picture of me" className="home_img" />
+                <img src={Me} alt="This is me" className="home_img" />
                 <h1 className='home_name'>Jere Janhunen</h1>
                 <span className='home_education'>Software Engineering student</span>
                 <HeaderSocials/>
