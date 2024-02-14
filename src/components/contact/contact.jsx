@@ -57,7 +57,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='contact_form-div'>
-                            <input type="text" name="subject" className='contact_form-input' placeholder='Write your subject'/>
+                            <input type="text" name="subject" className='contact_form-input' placeholder='Subject'/>
                     </div>
 
                     <div className='contact_form-div contact_form-area'>

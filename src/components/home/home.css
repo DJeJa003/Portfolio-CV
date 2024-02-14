@@ -87,3 +87,60 @@
     transform: translateX(-50%);
     animation: ani-mouse 2s linear infinite;
 }
+
+@media screen and (max-width: 768px) {
+    .home {
+      text-align: center;
+    }
+  
+    .intro {
+      max-width: 100%; 
+      margin: 0 1rem;
+    }
+  
+    .home_img {
+      margin-bottom: 1rem;
+    }
+  
+    .home_name {
+      font-size: 1.75rem; 
+    }
+  
+    .home_socials {
+      margin: 1rem 0;
+    }
+  
+    .home_social-link {
+      font-size: 1rem; 
+    }
+  
+    .scroll_down {
+      bottom: 1.5rem; 
+    }
+  
+    .home_scroll-name {
+      font-size: 0.75rem; 
+    }
+  
+    .mouse {
+      height: 1rem; 
+      width: 1rem; 
+      margin-top: 0.5rem; 
+    }
+  
+    .wheel {
+      top: 0.25rem; 
+      width: 0.125rem; 
+      height: 0.125rem;
+    }
+  
+    @keyframes ani-mouse {
+      0%, 100% {
+          top: 15%;
+      }
+      50% {
+          top: 50%;
+      }
+    }
+  }
+  

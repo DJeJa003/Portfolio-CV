@@ -78,7 +78,7 @@ const Data = [
         icon: "icon-graduation",
         year: "",
         title: "CI/CD",
-        desc: "Most recent thing I've learned about. Seems to be pretty fun."
+        desc: "Most recent thing I've learned about. Seems to be pretty useful."
     },
     
     

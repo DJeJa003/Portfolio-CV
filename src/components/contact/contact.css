@@ -47,3 +47,36 @@
 .contact_form-area textarea {
     resize: none;
 }
+
+.contact_form {
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .contact_form-group {
+    grid-template-columns: 1fr; 
+  }
+  
+  .contact_form-div {
+    margin-bottom: 1rem;
+  }
+  
+  .contact_form-input,
+  .contact_form-area {
+    width: 100%;
+  }
+
+@media screen and (min-width: 768px) {
+    .contact_form-group {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  
+    .contact_form-div {
+      margin-bottom: 0;
+    }
+  
+    .contact_form-input,
+    .contact_form-area {
+      width: calc(100% - 1.5rem);
+    }
+  }

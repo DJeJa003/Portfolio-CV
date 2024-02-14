@@ -8,9 +8,9 @@ const HeaderSocials = () => {
             <a href="https://www.linkedin.com/in/jere-janhunen-29b9ba222/" className='home_social-link' target="_blank" rel="noreferrer">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://www.instagram.com/jetcher_" className='home_social-link' target="_blank" rel="noreferrer">
+            {/* <a href="https://www.instagram.com/jetcher_" className='home_social-link' target="_blank" rel="noreferrer">
                 <i class="fa-brands fa-instagram"></i>
-            </a>
+            </a> */}
         </div>
     )
 }
