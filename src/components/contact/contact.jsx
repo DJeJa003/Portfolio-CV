@@ -1,12 +1,11 @@
 // import React, { useState } from 'react';
 import "./contact.css";
-const emailService = process.env.react_app_emailservice;
+//const emailService = process.env.REACT_APP_EMAILSERVICE;
 
   
 const Contact = () => {
 
     //const [loading, setLoading] = useState(false);
-
     const handleSubmit = async (event) => {
         event.preventDefault();
         //setLoading(true);
@@ -23,7 +22,7 @@ const Contact = () => {
             }
     
         try {
-            const response = await fetch(emailService, {
+            const response = await fetch('https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
