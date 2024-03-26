@@ -1,6 +1,6 @@
 // import React, { useState } from 'react';
 import "./contact.css";
-
+const emailService = process.env.react_app_emailservice;
 
   
 const Contact = () => {
@@ -23,7 +23,7 @@ const Contact = () => {
             }
     
         try {
-            const response = await fetch(process.env.react_app_emailservice, {
+            const response = await fetch(emailService, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
