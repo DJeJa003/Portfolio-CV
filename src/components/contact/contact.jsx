@@ -23,7 +23,7 @@ const Contact = () => {
             }
     
         try {
-            const response = await fetch(process.env.REACT_APP_EMAILSERVICE, {
+            const response = await fetch(process.env.react_app_emailservice, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
