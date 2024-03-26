@@ -1,15 +1,15 @@
 
-const ScrollDown = () => {
-    return (
-        <div className='scroll_down'>
-            <a href="#about" className='mouse_wrapper'>
-                <span className='home_scroll-name'>Scroll down</span>
-                <span className='mouse'>
-                    <span className='wheel'></span>
-                </span>
-            </a>
-        </div>
-    )
-}
+// const ScrollDown = () => {
+//     return (
+//         <div className='scroll_down'>
+//             <a href="#about" className='mouse_wrapper'>
+//                 <span className='home_scroll-name'>Scroll down</span>
+//                 <span className='mouse'>
+//                     <span className='wheel'></span>
+//                 </span>
+//             </a>
+//         </div>
+//     )
+// }
 
-export default ScrollDown
+// export default ScrollDown

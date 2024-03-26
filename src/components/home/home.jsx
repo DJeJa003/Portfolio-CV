@@ -1,7 +1,7 @@
 import "./home.css";
 import Me from "../../assets/55.jpg";
 import HeaderSocials from './headerSocials';
-import ScrollDown from './scrollDown';
+// import ScrollDown from './scrollDown';
 
 const Home = () => {
     return (
@@ -13,7 +13,7 @@ const Home = () => {
                 <HeaderSocials/>
 
                 <a href="#contact" className='btn'>Contact Me</a>
-                <ScrollDown/>
+                {/* <ScrollDown/> */}
             </div>
         </section>
     )
