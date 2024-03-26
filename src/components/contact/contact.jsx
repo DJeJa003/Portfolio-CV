@@ -7,45 +7,45 @@ const Contact = () => {
 
     //const [loading, setLoading] = useState(false);
 
-    // const handleSubmit = async (event) => {
-    //     event.preventDefault();
-    //     //setLoading(true);
-    //     const formData = new FormData(event.target);
-    //     const data = {};
-    //         formData.forEach((value, key) => {
-    //             data[key] = value;
-    //         });
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        //setLoading(true);
+        const formData = new FormData(event.target);
+        const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
         
-    //     if (!data.email || !data.name || !data.message) {
-    //         alert('Please fill out all fields.');
-    //         //setLoading(false);
-    //         return;
-    //         }
+        if (!data.email || !data.name || !data.message) {
+            alert('Please fill out all fields.');
+            //setLoading(false);
+            return;
+            }
     
-    //     try {
-    //         const response = await fetch('https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/json',
-    //         },
-    //         body: JSON.stringify(data),
-    //         });
+        try {
+            const response = await fetch('https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+            });
       
-    //       if (response.ok) {
-    //         alert('Form successfully sent!');
-    //         setTimeout(() => {
-    //           window.location.href = 'https://janhunenjere.com'
-    //         }, 50);
-    //       } else {
-    //         alert('Something went wrong, please try again.');
-    //       }
-    //     } catch (error) {
-    //       console.error('Error:', error);
-    //       alert('Something went wrong.');
-    //     }// } finally {
-    //     //     setLoading(false);
-    //     // }
-    // };
+          if (response.ok) {
+            alert('Form successfully sent!');
+            setTimeout(() => {
+              window.location.href = 'https://janhunenjere.com'
+            }, 50);
+          } else {
+            alert('Something went wrong, please try again.');
+          }
+        } catch (error) {
+          console.error('Error:', error);
+          alert('Something went wrong.');
+        }// } finally {
+        //     setLoading(false);
+        // }
+    };
 
 
     return (
@@ -58,7 +58,7 @@ const Contact = () => {
                 </div>
                 {/* {loading && <div className="loading-circle"></div>} */}
 
-                {/* <form  onSubmit={handleSubmit} className='contact_form'>
+                <form  onSubmit={handleSubmit} className='contact_form'>
                     <div className='contact_form-group'>
                         <div className='contact_form-div'>
                             <input type="text" name="name" className='contact_form-input' placeholder='Name'/>
@@ -77,7 +77,7 @@ const Contact = () => {
                     </div>
                     <button type="submit" className='btn'>Send</button>
 
-                </form> */}
+                </form>
             </div>
         </section>
     )
