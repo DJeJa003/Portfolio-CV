@@ -55,7 +55,8 @@ const Contact = () => {
             <div className='contact_container grid'>
                 <div className='contact_info'>
                     <p className='contact_details'>Want to know more? Please feel free to contact me by sending an email to jere-janhunen@hotmail.com and I will get back to you ASAP.</p>
-                    <p>The form for contacting is on it's way.</p>
+                    <br/>
+                    <p>The form for contacting is on its way.</p>
                 </div>
                 {/* {loading && <div className="loading-circle"></div>} */}
 
