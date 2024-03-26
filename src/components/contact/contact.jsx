@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import "./contact.css";
 
 
@@ -23,7 +23,7 @@ const Contact = () => {
             }
     
         try {
-            const response = await fetch('https://us-central1-portfolio22-19acd.cloudfunctions.net/sendEmail', {
+            const response = await fetch(process.env.REACT_APP_EMAILSERVICE, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
